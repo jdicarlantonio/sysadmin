@@ -1,0 +1,6 @@
+# crontab -e
+SHELL=/bin/bash
+MAILTO=root@example.com
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+
+*/2 * * * * /home/jd/dev/sysadmin/file_monitor.sh /home/jd/dev/sysadmin/testfile
