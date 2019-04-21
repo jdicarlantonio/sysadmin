@@ -3,4 +3,4 @@ SHELL=/bin/bash
 MAILTO=root@example.com
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 
-*/2 * * * * /home/jd/dev/sysadmin/file_monitor.sh /home/jd/dev/sysadmin/testfile
+*/2 * * * * /root/sysadmin/filemon/file_monitor.sh /root/sysadmin/filemon/lab2-test
