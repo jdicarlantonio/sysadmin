@@ -25,9 +25,9 @@ fuser -v .
 # grep is a command which searches for patterns. grep can be used with other
 # commands using a pipe, for instance we can also find files with a certain
 # pattern using grep.
-# here i find information on the enp2s0 wireless driver by combining ifconfig 
+# here i find information on the enp0s3 wireless driver by combining ifconfig 
 # with grep and displaying only the first 4 lines
-ifconfig | grep -A 4 enp2s0
+ip a | grep -A 4 enp0s3
 
 # the host command looks up DNS, ie it finds the host of an IP or the IP address
 # of a host. Here I just find the ip of the UCR homepage
